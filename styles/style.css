@@ -33,7 +33,7 @@
 }
 
 html{
-  background-color: #111116;
+  background-color: white ;
   color: white;
 }
 
@@ -43,11 +43,11 @@ body {
   align-items: center;
   justify-content: center;
   color: var(--text-color);
-  background-color: #111116;
+  background-color: ;
 }
 
 body.dark {
-  --bg-color: #878683;
+  --bg-color: #878683;white-space: inherit;
   --light-bg-color: #444444;
   --text-color: #fff;
   --light-text-color: #58575c;
@@ -65,7 +65,8 @@ body.dark {
   flex: 1;
   padding: 30px;
   border-radius: 20px;
-  background-color: #444444;
+  background-color: azure;
+  box-shadow: 0px 5px 10px white, 0px 5px 10px black;
 }
 
 .container .card .from,
